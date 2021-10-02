@@ -13,12 +13,11 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run format"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
     "*.{ts,js,tsx,jsx}": [
-      "eslint --fix",
       "prettier --write"
     ],
     "*.{json,graphql,gql}": [
