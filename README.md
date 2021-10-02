@@ -8,5 +8,4 @@ yarn global add eslint
 
 npm run prepare
 
-  npx husky add .husky/pre-commit "yarn lint:fix"
 

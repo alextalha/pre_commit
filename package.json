@@ -19,10 +19,10 @@
   "lint-staged": {
     "*.{ts,js,tsx,jsx}": [
       "eslint --fix",
-      "prettier --write"
+      "npx prettier --write"
     ],
     "*.{json,graphql,gql}": [
-      "prettier --write"
+      "npx prettier --write"
     ]
   },
   "devDependencies": {
